@@ -1,5 +1,5 @@
 **Find a Course**
-Find a Course is a web app that lets you find the ideal online or classroom-based course for you. Users can search for a course, view availability and register on the course if there are places available. Logging in is mocked by using state in App.js - if you would like to change the user to yourself, simply edit the name here.
+Find a Course is a web app that lets you find the ideal online or classroom-based course for you. Users can search for a course, view availability and register on the course if there are places available. They can also deregister from a course if they change their mind. Logging in is mocked by using state in App.js - if you would like to change the user to yourself, simply edit the name here.
 
 **Getting Started**
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -24,7 +24,7 @@ $ npm install -g create-react-app
 The React documentation, which explains clearly how to get started with a React app, as well as more advanced guides, can be found here:- (https://reactjs.org/docs/hello-world.html)
 
 **Install Find a Course**
-Please clone the repository https://github.com/kjd35uk/FE-FT-NC-News
+Please clone the repository https://github.com/kjd35uk/find-a-course
 
 $ git clone https://github.com/kjd35uk/find-a-course
 
@@ -34,17 +34,17 @@ $ npm install
 
 In the project directory, you can run:
 
-### `npm start`
+$ npm start
 
 You can see the app running in the development mode directly in the browser by opening http://localhost:3000/.
 The page will reload if you make edits.<br />
 
-### `npm test -- --coverage --watchAll `
+$ npm test -- --coverage --watchAll
 
 Launches the Jest testing in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm build`
+$ npm build
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
